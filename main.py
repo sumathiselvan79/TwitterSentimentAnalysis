@@ -15,14 +15,11 @@ import database as db
 #authenticate with twitter
 
 def authenticate():
-    #CONSUMER_KEY    =  'Z7Ww83km4ElGyxePAHVkK1ktt'
-    #CONSUMER_SECRET =  'B64oPhYkqH6AR4Zzd03TYLTr0zNMeauXBtiD2JIe0miDWKEyTm'
-    #ACCESS_TOKEN  =  '1015296632168931329-rjUhJK81rTjb6kouaESjAYPSzO6l4V'
-    #ACCESS_SECRET = 'muryPklbv9n9XQVRUVZgMp7gstQz3MML0nHM5ye45oALR'
-    CONSUMER_KEY = '189YcjF4IUzF156RGNGNucDD8'
-    CONSUMER_SECRET = 'd7HY36s4pSh03HxjDg782HupUjmzdOOSDd98hd'
-    ACCESS_TOKEN = '2543812-cpaIuwndjvbdjaDDp5izzndhsD7figa9gb'
-    ACCESS_SECRET = '4hdyfnas7d988ddjf87sJdj3Dxn4d5CcNpwe'
+   
+    CONSUMER_KEY = '*********'
+    CONSUMER_SECRET = '############'
+    ACCESS_TOKEN = '########################'
+    ACCESS_SECRET = '############################'
     auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
     auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
     api = tweepy.API(auth)
